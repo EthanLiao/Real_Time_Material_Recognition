@@ -30,7 +30,10 @@ python3 train.py --output_dir "inference/" --root_dir "data_road"
 ```
 
 ## Video Streamming : 
-Use the therminal under the Video-streaming directory
+
+Use the terminal under the Video-streaming directory
+
+```
 Deep_Learning_Final_Project
 ├── segmentation-model
 │── Video-streaming
@@ -38,6 +41,7 @@ Deep_Learning_Final_Project
     ├--requirement.txt
     ├--streaming.py
     ├--alexnet.caffemodel
+```
 
 ![](https://i.imgur.com/nML5K8A.png)
 
@@ -64,3 +68,6 @@ now you can start real time material recognition by the following command :
 ```
 python3 streaming.py -p deploy-alexnet.prototxt -m alexnet.caffemodel
 ```
+
+And you will get some interesting result
+![](https://i.imgur.com/wcTvl9z.png)
