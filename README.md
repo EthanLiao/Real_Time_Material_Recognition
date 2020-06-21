@@ -32,7 +32,7 @@ python3 train.py --output_dir "inference/" --root_dir "data_road"
 ## Video Streamming : 
 
 Use the terminal under the Video-streaming directory
-
+You should first download the model [here](https://drive.google.com/drive/folders/1gNQ-X6yLOl_J5-HR7ng37jUerPBoo2-G?usp=sharing)
 ```
 Deep_Learning_Final_Project
 ├── segmentation-model
